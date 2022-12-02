@@ -16,14 +16,19 @@ const inventory = {
   //update quantity of an item in the inventory
   updatedQuantity(name, quantity) {
     //find the item in the items array with the specified name
-    const item = this.items.find(i => i.name === name)
+    const item = this.items.find((i) => i.name === name);
 
     //if the item exists, update its quantity
-    if(item) {
-        item.quantity = quantity;
+    if (item) {
+      item.quantity = quantity;
     }
   },
 
   //need to get the current inventory
-  getInventory()
+  getInventory() {
+    //return the items array
+    return this.items;
+  },
 };
+
+export default inventory;
