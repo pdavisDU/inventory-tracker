@@ -1,0 +1,22 @@
+{
+  "name": "inventory-tracker",
+  "version": "1.0.0",
+  "description": "inventory track",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdavisDU/inventory-tracker.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Paul Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdavisDU/inventory-tracker/issues"
+  },
+  "homepage": "https://github.com/pdavisDU/inventory-tracker#readme"
+}
